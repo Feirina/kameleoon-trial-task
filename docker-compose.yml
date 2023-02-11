@@ -1,0 +1,8 @@
+version: 3.8
+services:
+  kameleoon-trial-task:
+    build:   .
+    image:   kameleoon-trial-task
+    container_name:   kameleoon-trial-task
+    ports:
+      - "8080:8080"
